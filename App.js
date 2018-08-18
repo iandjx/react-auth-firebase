@@ -10,14 +10,12 @@ export default class App extends React.Component {
   
   componentWillMount(){
     firebase.initializeApp({
-      
         apiKey: 'AIzaSyBxp_Y3FZOmiIM7RfHAYDVGZwZBYQ-9eaU',
         authDomain: 'authentication-afe67.firebaseapp.com',
-        databaseURL: "https://authentication-afe67.firebaseio.com",
-        projectId: "authentication-afe67",
-        storageBucket: "authentication-afe67.appspot.com",
-        messagingSenderId: "913075465416"
-         
+        databaseURL: 'https://authentication-afe67.firebaseio.com',
+        projectId: 'authentication-afe67',
+        storageBucket: 'authentication-afe67.appspot.com',
+        messagingSenderId: '913075465416'        
     });
 
   }
